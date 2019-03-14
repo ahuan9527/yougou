@@ -21,15 +21,29 @@
 >SOA：Service Oriented Architecture面向服务的架构。也就是把工程都拆分成服务层工程、表现层工程。服务层中包含业务逻辑，只需要对外提供服务即可。表现层只需要处理和页面的交互，业务逻辑都是调用服务层的服务来实现。工程都可以独立部署。
 >
 ### 技术选型和开发环境
->	Spring、SpringMVC、Mybatis
-	JSP、JSTL、jQuery、EasyUI、KindEditor（富文本编辑器）
-	Redis（缓存服务器，单点登录，购物车）
-	Solr（搜索）
-	dubbo（分布式服务框架）
-	HttpClient（HTTP 协议访问客户端）
-	ActiveMQ（消息队列）
-	Quartz（定时任务）
-	FastDFS（图片服务器）
-	FreeMarker（网页静态化）
-	Nginx（反向代理服务器）
-	MyCat（数据库中间件）
+- Spring、SpringMVC、Mybatis
+- JSP、JSTL、jQuery、EasyUI、KindEditor（富文本编辑器）
+- Redis（缓存服务器，单点登录，购物车）
+- Solr（搜索）	
+- dubbo（分布式服务框架）
+- HttpClient（HTTP 协议访问客户端）
+- ActiveMQ（消息队列）
+- Quartz（定时任务）
+- FastDFS（图片服务器）
+- FreeMarker（网页静态化）
+- Nginx（反向代理服务器）
+- MyCat（数据库中间件）
+- Eclipse Mars.2 
+- Maven 3.3.9
+- Tomcat 7.0.72（Maven Tomcat Plugin）
+- JDK 1.7
+- Mysql 5.7
+- Dubbo 2.5.3
+- Nginx 1.8.0
+- Redis 3.0.0
+- ActiveMQ 5.13.0
+- Win7 操作系统
+- SVN（版本管理）
+### 结语
+>该项目 还在 完善当中，大家有什么问题欢迎留言，个人邮箱:a187588475@gmail.com
+
